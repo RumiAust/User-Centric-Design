@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Favourites extends StatefulWidget {
@@ -10,7 +9,9 @@ class _FavouritesState extends State<Favourites> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Favorites'),),
+      appBar: AppBar(title: const Text('Favorites'),automaticallyImplyLeading: false,centerTitle: true,),
+
+
       body: const Center(
         child: Text('Favorite Screen', style: TextStyle(fontSize: 40),),
       ),

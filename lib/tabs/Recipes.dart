@@ -10,7 +10,7 @@ class _RecipesState extends State<Recipes> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Recipes'),),
+      appBar: AppBar(title: const Text('Recipes'),automaticallyImplyLeading: false,centerTitle: true,),
       body: const Center(
         child: Text('Recipes Screen', style: TextStyle(fontSize: 40),),
       ),

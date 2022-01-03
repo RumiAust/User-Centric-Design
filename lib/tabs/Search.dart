@@ -10,7 +10,7 @@ class _SearchState extends State<Search> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Search'),),
+      appBar: AppBar(title: const Text('Search'),automaticallyImplyLeading: false,centerTitle: true,),
       body: const Center(
         child: Text('Search Screen', style: TextStyle(fontSize: 40),),
       ),
