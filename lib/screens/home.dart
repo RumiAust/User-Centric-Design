@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
         // the App.build method, and use it to set our appbar title.
         title: Text(title),
         centerTitle: true,
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: Column(
