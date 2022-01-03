@@ -150,7 +150,7 @@ class _HomeState extends State<Home> {
                          ),
                          Text('Settings',
                            style: TextStyle(
-                               color: currentTab==1 ? Colors.lightGreen: Colors.grey
+                               color: currentTab==3 ? Colors.lightGreen: Colors.grey
                            ),
                          )
 

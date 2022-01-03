@@ -14,6 +14,7 @@ class _SearchState extends State<Search> {
       body: const Center(
         child: Text('Search Screen', style: TextStyle(fontSize: 40),),
       ),
+
     );
   }
 }
